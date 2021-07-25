@@ -5,3 +5,4 @@
 ## Currently supported languages
 
 - English
+- German
