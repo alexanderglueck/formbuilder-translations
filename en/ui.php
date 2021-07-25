@@ -2,19 +2,9 @@
 
 return [
     /*
-     * Navigation
-     */
-    'login' => 'Sign in',
-    'logout' => 'Sign out',
-    'register' => 'Sign up',
-    'roles' => 'Roles',
-    'team' => 'Team',
-
-    /*
      * Hamburger Menu
      */
     'toggle_navigation' => 'Toggle navigation',
-
 
     /*
      * Trial & Grace Period
@@ -509,6 +499,7 @@ Now that you know how to get data into your account let's see what you can do wi
                 'no_api_tokens' => 'No api tokens yet.',
                 'api_token' => 'API token',
                 'name' => 'Name',
+                'created' => 'created'
             ],
             'actions' => [
                 'reveal' => 'Reveal API token',

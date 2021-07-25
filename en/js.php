@@ -95,7 +95,7 @@ return [
     'domain' => [
         'domain' => 'Domain',
         'add' => 'Add',
-        'delete' => ''
+        'delete' => 'Delete'
     ],
 
     'item' => [
