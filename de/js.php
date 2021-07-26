@@ -87,7 +87,7 @@ return [
         'last_name' => 'Nachname',
         'example_first_name' => 'Max',
         'example_last_name' => 'Mustermann',
-        'email' => 'E-Mail Adresse',
+        'email' => 'E-Mail-Adresse',
         'example_email' => 'max.mustermann@example.com',
         'store' => 'Speichern',
     ],
@@ -101,7 +101,7 @@ return [
     'item' => [
         'input_type' => 'Eingabetyp',
         'text' => 'Text',
-        'email' => 'E-Mail Adresse',
+        'email' => 'E-Mail-Adresse',
         'textarea' => 'Langer Text',
         'number' => 'Nummer',
         'tel' => 'Telefonnummer',

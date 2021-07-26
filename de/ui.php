@@ -15,9 +15,9 @@ return [
     'pages' => [
         'welcome' => [
             'title' => 'Willkommen',
-            'description' => 'FormBuilder ist der einfachste Weg um schnell Formulardaten von Ihren Nutzern zu erheben.',
+            'description' => 'FormBuilder ist der einfachste Weg, um schnell Formulardaten von Ihren Nutzern zu erheben.',
             'fields' => [
-                'welcome' => 'Wilkommen bei :name'
+                'welcome' => 'Willkommen bei :name'
             ]
         ],
 
@@ -26,7 +26,7 @@ return [
             'description' => 'Übersicht über die wichtigsten Funktionen die von FormBuilder bereitgestellt werden. ',
             'fields' => [
                 'content' => "<strong>Sammeln Sie Formulardaten</strong><br>
-                        Erstellen Sie ein Formular in dem Sie Eingabefelder über den einfachen Formular-Builder einfügen. <br>
+                        Erstellen Sie ein Formular, in dem Sie Eingabefelder über den einfachen Formular-Builder einfügen. <br>
                         Jedes Eingabefeld erhält eine eindeutige Identifikation. <br>
                         <br>
                         :name bietet Ihnen mehrere Arten Ihre Formulare zu übermitteln.<br>
@@ -35,7 +35,7 @@ return [
                         Ihres Wunsch-Divs und Sie sind fertig.<br>
                         <br>
                         2. Etwas komplizierter, dafür leichter anpassbar. Erstellen Sie Ihr eigenes HTML Formular und verwenden Sie
-                        den Formularendpunkt und die eindeutige Kennzeichnung der Formularfelder um Daten direkt aus Ihrem HTML Formular an FormBuilder zu senden.
+                        den Formularendpunkt und die eindeutige Kennzeichnung der Formularfelder, um Daten direkt aus Ihrem HTML Formular an FormBuilder zu senden.
                         Vergessen Sie nicht darauf, das Sicherheitsfeld einzubauen.<br>
                         <br>
                         3. Für fortgeschrittene Benutzer. Schreiben Sie Ihr eigenes HTML Formular und nutzen Sie FormBuilder als Endpunkt für Ihr AJAX-Formular.<br>
@@ -43,14 +43,12 @@ return [
                         Jetzt wo Sie wissen, wie Sie Daten an Ihre Formulare übermitteln können, schauen wir uns an, wie
                         Sie Ihre Daten weiter verarbeiten können.<br>
                         <br>
-                        <strong>Integrations</strong><br>
+                        <strong>Integrationen</strong><br>
                         :name verfügt über mehrere Integrationen. <br>
                         Um Integrationen zu aktivieren, müssen Sie nur eine kurze Ersteinrichtung vornehmen.
                         Integrationen können bei einer Formulardetailseite über \"Integrationen verwalten\" aktiviert/deaktiviert werden.<br>
                         <br>
-                        Use our Trello integration to automatically create a card for every response. Or add a new record
-                        to a Google Sheets document using the Google Sheets integration. <br>
-                        Using the Zapier integration you can use thousands of pre-built integrations to automate your workflow.<br>
+                        Verwenden Sie unsere Trelle Integraiton um automatisch Karten für jede empfangene Antwort zu erstellen. Oder fügen Sie einen weiteren Zeile in ein Google Sheet Dokument ein, durch die Google Sheet Integration.<br>
                         <br>
                         <strong>API</strong><br>
                         :name verfügt über eine API. <br>
@@ -99,7 +97,7 @@ return [
             'title' => 'Kontakt',
             'description' => 'Sie haben Fragen? Nehmen Sie mit uns Kontakt auf! Das FormBuilder Team hilft Ihnen gerne.',
             'fields' => [
-                'content' => 'Nutzen Sie das nachfolgende Formular um mit uns in Kontakt zu treten.'
+                'content' => 'Nutzen Sie das nachfolgende Formular, um mit uns in Kontakt zu treten.'
             ]
         ],
 
@@ -146,14 +144,14 @@ return [
                 'content' => '<strong>:name teilt Ihre Daten nicht mit Dritten. </strong><br>
                         <br>
                         :name verpflichtet sich, Ihre Daten sicher zu halten. <br>
-                        Informationen werden nur dan an Dritte weitergegeben, wenn Sie die dazugehörigen Integrationen aktivieren. Die übermittelten Informationen
+                        Informationen werden nur dann an Dritte weitergegeben, wenn Sie die dazugehörigen Integrationen aktivieren. Die übermittelten Informationen
                         beschränken sich auf die als Antwort erhaltenen Daten. Daten werden nur so lange übermittelt, bis die Integration deaktiviert wird. <br>
                         Ihre persönlichen Daten werden nie an Dritte weitergegeben.<br>
                         <br>
                         <strong>Stripe</strong><br>
                         :name verwendet Stripe als Zahlungsdienstleister. <br>
                         Mit dem Abschluss eines Abonnements werden Ihre persönlichen Daten an <a href="https://stripe.com" target="_blank">Stripe <i class="fas fa-external-link-alt"></i></a>
-                        übertragen. Bei den übermittelten Daten handelt es sich um: Vorname, Nachname und E-Mail Adresse.',
+                        übertragen. Bei den übermittelten Daten handelt es sich um: Vorname, Nachname und E-Mail-Adresse.',
             ]
         ],
 
@@ -202,7 +200,7 @@ return [
             'title' => 'Anmelden',
             'description' => "Melden Sie sich bei FormBuilder an, um Zugriff auf Ihre Formulare und Antworten zu erhalten.",
             'fields' => [
-                'email' => 'E-Mail Adresse',
+                'email' => 'E-Mail-Adresse',
                 'password' => 'Passwort',
                 'remember_me' => 'Angemeldet bleiben',
                 'forgot_your_password' => 'Passwort vergessen?'
@@ -214,10 +212,10 @@ return [
 
         'register' => [
             'title' => 'Registrieren',
-            'description' => "Registireren Sie sich bei FormBuilder, um sofort Ihre eigenen Formulare anzulegen.",
+            'description' => "Registrieren Sie sich bei FormBuilder, um sofort Ihre eigenen Formulare anzulegen.",
             'fields' => [
                 'name' => 'Vor- und Nachname',
-                'email' => 'E-Mail Adresse',
+                'email' => 'E-Mail-Adresse',
                 'password' => 'Passwort',
                 'confirm_password' => 'Passwort bestätigen',
                 'accept_terms' => 'Ich habe die
@@ -232,25 +230,25 @@ return [
         ],
 
         'verify' => [
-            'title' => 'E-Mail Adresse bestätigen',
-            'description' => "Bestätigen Sie Ihre E-Mail Adresse um FormBuilder zu nutzen.",
+            'title' => 'E-Mail-Adresse bestätigen',
+            'description' => "Bestätigen Sie Ihre E-Mail-Adresse um FormBuilder zu nutzen.",
             'fields' => [
-                'content' => 'Bestätigen Sie Ihre E-Mail Adresse um fortzufahren. <br>
+                'content' => 'Bestätigen Sie Ihre E-Mail-Adresse um fortzufahren. <br>
                                 Wenn Sie keine E-Mail zur Kontobestätigung erhalten haben, ',
             ],
             'flash' => [
-                'resent' => 'A fresh verification link has been sent to your email address.'
+                'resent' => 'Ein neuer Bestätigungslink wurde an Ihre E-Mail-Adresse gesendet.'
             ],
             'actions' => [
-                'request_another' => 'klicken Sie hier um eine weitere E-Mail anzufordern.'
+                'request_another' => 'klicken Sie hier, um eine weitere E-Mail anzufordern.'
             ]
         ],
 
         'email' => [
             'title' => 'Passwort zurücksetzen',
-            'description' => "Setzen Sie Ihr Passwort zurück um Zugriff auf Ihr Konto zu erhalten.",
+            'description' => "Setzen Sie Ihr Passwort zurück, um Zugriff auf Ihr Konto zu erhalten.",
             'fields' => [
-                'email' => 'E-Mail Adresse',
+                'email' => 'E-Mail-Adresse',
             ],
             'actions' => [
                 'send_link' => 'Passwort zurücksetzen'
@@ -259,9 +257,9 @@ return [
 
         'reset' => [
             'title' => 'Passwort zurücksetzen',
-            'description' => "Setzen Sie Ihre Passwort zurück um Zugang zu Ihrem FormBuilder Konto zu erhalten.",
+            'description' => "Setzen Sie Ihr Passwort zurück, um Zugang zu Ihrem FormBuilder Konto zu erhalten.",
             'fields' => [
-                'email' => 'E-Mail Adresse',
+                'email' => 'E-Mail-Adresse',
                 'password' => 'Passwort',
                 'confirm_password' => 'Passwort bestätigen',
             ],
@@ -272,10 +270,10 @@ return [
 
         'two_factor' => [
             'title' => 'Zwei-Faktor-Authentifizierung',
-            'description' => "Geben Sie Ihren Zwei-Faktor-Authentifizierungscode ein um sich anzumelden.",
+            'description' => "Geben Sie Ihren Zwei-Faktor-Authentifizierungscode ein, um sich anzumelden.",
             'fields' => [
                 'content' => 'Um die Anmeldung abzuschließen, öffnen Sie Ihre Authentifizierungsanwendung und geben Sie den 6-stelligen Code ein.',
-                'token' => 'Zwei-Faktor-Authentifizierungcode',
+                'token' => 'Zwei-Faktor-Authentifizierungscode',
                 'remember_browser' => 'Diesen Browser speichern',
             ],
             'errors' => [
@@ -288,7 +286,7 @@ return [
 
         'confirm' => [
             'title' => 'Passwort bestätigen',
-            'description' => "Bestätigen Sie Ihr Passwort um fortzufahren.",
+            'description' => "Bestätigen Sie Ihr Passwort, um fortzufahren.",
             'fields' => [
                 'content' => 'Um die Anmeldung abzuschließen, öffnen Sie Ihre Authentifizierungsanwendung und geben Sie den 6-stelligen Code ein.',
                 'password' => 'Passwort',
@@ -344,11 +342,11 @@ return [
                 'title' => 'Profil',
                 'fields' => [
                     'name' => 'Name',
-                    'email' => 'E-Mail Adresse',
+                    'email' => 'E-Mail-Adresse',
                 ],
                 'actions' => [
                     'update' => 'Profil aktualisieren',
-                    'resend_verification' => 'E-Mail Bestätigung erneut senden'
+                    'resend_verification' => 'E-Mail-Bestätigung erneut senden'
                 ]
             ],
 
@@ -426,7 +424,7 @@ return [
             'resume' => [
                 'title' => 'Abonnement fortsetzen',
                 'fields' => [
-                    'content' => 'Bestätigen um das Abonnement fortzusetzen.'
+                    'content' => 'Drücken Sie den Button, um das Abonnement fortzusetzen.'
                 ],
                 'actions' => [
                     'resume' => 'Abonnement fortsetzen'
@@ -436,7 +434,7 @@ return [
             'cancel' => [
                 'title' => 'Abonnement kündigen',
                 'fields' => [
-                    'content' => 'Bestätigen um das Abonnement zu kündigen.'
+                    'content' => 'Drücken Sie den Button, um das Abonnement zu kündigen.'
                 ],
                 'actions' => [
                     'cancel' => 'Abonnement kündigen'
@@ -447,7 +445,7 @@ return [
                 'title' => 'Abonnement ändern',
                 'fields' => [
                     'content' => 'Abonnement ändern.',
-                    'current_plan' => 'Aktives Abonnement: <strong>:plan</strong> (€ :price / month)',
+                    'current_plan' => 'Aktives Abonnement: <strong>:plan</strong> (€ :price / Monat)',
                     'new_plan' => 'Neues Abonnement',
                     'per_month' => ' / Monat',
                 ],
