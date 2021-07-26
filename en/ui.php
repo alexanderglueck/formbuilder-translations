@@ -671,7 +671,6 @@ Now that you know how to get data into your account let's see what you can do wi
                 'close' => 'Close',
             ],
             'flash' => [
-                'copied_to_clipboard' => 'Copied to clipboard!',
                 'failed_validation_rules' => 'The following validation rules failed:'
             ],
             'alerts' => [

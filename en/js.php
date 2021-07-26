@@ -3,6 +3,7 @@
 return [
     'are_you_sure' => 'Are you sure?',
     'close' => 'Close',
+    'copied_to_clipboard' => 'Copied!',
 
     'search' => [
         'no_results' => 'No results',

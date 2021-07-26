@@ -670,7 +670,6 @@ return [
                 'close' => 'Schließen',
             ],
             'flash' => [
-                'copied_to_clipboard' => 'Kopiert!',
                 'failed_validation_rules' => 'Die folgenden Fehler sind aufgetreten:'
             ],
             'alerts' => [

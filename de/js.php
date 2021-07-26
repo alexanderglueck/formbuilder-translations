@@ -3,6 +3,7 @@
 return [
     'are_you_sure' => 'Sind Sie sicher?',
     'close' => 'Schließen',
+    'copied_to_clipboard' => 'Kopiert!',
 
     'search' => [
         'no_results' => 'Keine Ergebnisse',
