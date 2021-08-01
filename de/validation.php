@@ -182,5 +182,6 @@ return [
         'title'                 => 'Titel',
         'username'              => 'Benutzername',
         'year'                  => 'Jahr',
+        'terms_of_service'      => 'Nutzungshinweis',
     ],
 ];

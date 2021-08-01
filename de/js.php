@@ -128,6 +128,7 @@ return [
         'default' => 'Standard',
         'html' => 'HTML',
         'button_text' => 'Button Text',
-        'empty_default' => '(leerer Platzhalter)'
+        'empty_default' => '(leerer Platzhalter)',
+        'classes' => 'CSS-Klassen'
     ]
 ];

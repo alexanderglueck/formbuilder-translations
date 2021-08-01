@@ -663,6 +663,7 @@ return [
                 'support' => 'Support',
                 'account' => 'Konto',
                 'legal' => 'Rechtliches',
+                'language' => 'Sprache',
             ]
         ],
         'app' => [

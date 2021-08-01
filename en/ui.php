@@ -664,6 +664,7 @@ Now that you know how to get data into your account let's see what you can do wi
                 'support' => 'Support',
                 'account' => 'Account',
                 'legal' => 'Legal',
+                'language' => 'Language',
             ]
         ],
         'app' => [
