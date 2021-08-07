@@ -83,7 +83,9 @@ return [
         'remove_row' => 'Zeile entfernen',
         'add_row_before' => 'Zeile davor einfügen',
         'add_row' => 'Zeile einfügen',
+        'copy_row' => 'Zeile kopieren',
 
+        'row' => 'Zeile',
         'first_name' => 'Vorname',
         'last_name' => 'Nachname',
         'example_first_name' => 'Max',

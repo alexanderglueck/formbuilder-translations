@@ -83,7 +83,9 @@ return [
         'remove_row' => 'Remove row',
         'add_row_before' => 'Add row before',
         'add_row' => 'Add row',
+        'copy_row' => 'Copy row',
 
+        'row' => 'Row',
         'first_name' => 'First name',
         'last_name' => 'Last name',
         'example_first_name' => 'John',
