@@ -84,8 +84,12 @@ return [
         'add_row_before' => 'Add row before',
         'add_row' => 'Add row',
         'copy_row' => 'Copy row',
+        'add_section' => 'Add section',
+        'copy_section' => 'Copy section',
+        'remove_section' => 'Remove section',
 
         'row' => 'Row',
+        'section' => 'Section',
         'first_name' => 'First name',
         'last_name' => 'Last name',
         'example_first_name' => 'John',

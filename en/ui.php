@@ -564,6 +564,7 @@ Now that you know how to get data into your account let's see what you can do wi
                 'recaptcha_secret_key' => 'Google reCAPTCHA Secret Key',
                 'recaptcha_location' => 'Get your credentials at <a href="https://www.google.com/recaptcha/admin/" target="_blank" title="Open Google reCAPTCHA in a new tab">Google reCAPTCHA</a>.',
                 'use_provided_page' => 'Use provided page',
+                'use_multi_step_form' => 'Display as multi-step form',
 
                 'indefinitely' => 'Indefinitely',
                 '1_week' => '1 week',

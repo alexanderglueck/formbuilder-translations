@@ -84,8 +84,12 @@ return [
         'add_row_before' => 'Zeile davor einfügen',
         'add_row' => 'Zeile einfügen',
         'copy_row' => 'Zeile kopieren',
+        'add_section' => 'Sektion einfügen',
+        'copy_section' => 'Sektion kopieren',
+        'remove_section' => 'Sektion entfernen',
 
         'row' => 'Zeile',
+        'section' => 'Sektion',
         'first_name' => 'Vorname',
         'last_name' => 'Nachname',
         'example_first_name' => 'Max',

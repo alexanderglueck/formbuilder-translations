@@ -563,6 +563,7 @@ return [
                 'recaptcha_secret_key' => 'Google reCAPTCHA geheimer Schlüssel',
                 'recaptcha_location' => 'Fordern Sie Ihre Zugangsdaten bei <a href="https://www.google.com/recaptcha/admin/" target="_blank" title="Open Google reCAPTCHA in a new tab">Google reCAPTCHA</a> an.',
                 'use_provided_page' => 'Zur Verfügung gestellte Formular-Webseite nutzen',
+                'use_multi_step_form' => 'Formular mehrstufig anzeigen',
 
                 'indefinitely' => 'Unbegrenzt',
                 '1_week' => '1 Woche',
